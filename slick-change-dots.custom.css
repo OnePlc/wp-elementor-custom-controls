@@ -1,0 +1,14 @@
+selector .slick-dots li button {
+    box-shadow: inset 0 0 0 8px #000;
+    border-radius: 50%;
+    border:1px solid #000;
+}
+
+selector .slick-dots li button:hover {
+    box-shadow: inset 0 0 0 8px #fff;
+    border-radius: 50%;
+}
+
+selector .slick-dots li.slick-active button {
+    box-shadow: inset 0 0 0 8px #fff;
+}
