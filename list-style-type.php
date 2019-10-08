@@ -1,7 +1,9 @@
+<?php
 protected function _register_controls() {
- [....]
 // Start your Style Section
 
+// other Controls ...
+ 
 // List Style Type Control
 $this->add_control(
     'list_style',
@@ -23,5 +25,7 @@ $this->add_control(
     ]
 );
 
-[....]
+// other controls
+ 
+// end your style section
 }
