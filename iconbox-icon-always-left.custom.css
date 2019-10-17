@@ -1,0 +1,20 @@
+/**
+ * Add to custom css (e.G via customizer)
+ */
+ 
+.keep-icon-box-left  .elementor-icon-box-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.keep-icon-box-left  .elementor-icon-box-icon {
+  flex: 0 0 auto;
+  margin-left: 0px !important;
+  margin-right: 14px !important;
+}
+
+
+/**
+ * Add class "keep-icon-box-left" to all iconboxes you want
+ * via Elementor - Select Icon Box - Advanced - CSS Classes 
+ **/
